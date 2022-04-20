@@ -5,6 +5,7 @@ Config.RamsNeeded = 2
 Config.UnownedBlips = false
 
 Config.Houses = {}
+Config.Targets = {}
 
 Config.Furniture = {
 	["sofas"] = {
