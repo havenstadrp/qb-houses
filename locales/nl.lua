@@ -22,12 +22,14 @@ local Translations = {
         ["remove_key_from"] = "Sleutels zijn verwijderd van %{firstname} %{lastname}",
         ["already_keys"] = "Deze persoon heeft al de sleutels van het huis!",
         ["something_wrong"] = "Er is iets misgegaan, probeer het opnieuw!",
+        ["nobody_at_door"] = 'Er is niemand aan de deur...'
     },
-    succes = {
+    success = {
         ["unlocked"] = "Huis is ontgrendeld!",
         ["home_invasion"] = "De deur is nu open.",
         ["lock_invasion"] = "Je hebt het huis weer op slot gedaan..",
-        ["recieved_key"] = "Je hebt de sleutels van %{value} ontvangen!"
+        ["recieved_key"] = "Je hebt de sleutels van %{value} ontvangen!",
+        ["house_purchased"] = "U heeft het huis succesvol gekocht!"
     },
     info = {
         ["door_ringing"] = "Iemand belt aan de deur!",
@@ -45,6 +47,7 @@ local Translations = {
     },
     menu = {
         ["house_options"] = "Huisopties",
+        ["close_menu"] = "⬅ Close Menu",
         ["enter_house"] = "Betreed uw huis",
         ["give_house_key"] = "Geef huissleutel",
         ["exit_property"] = "Eigendom verlaten",
@@ -63,6 +66,11 @@ local Translations = {
         ["characters"] = "Characters",
         ["enter_unlocked_house"] = "Betreed ontgrendeld huis",
         ["lock_door_police"] = "Deur vergrendelen"
+    },
+    target = {
+        ["open_stash"] = "[E] Open voorraad",
+        ["outfits"] = "[E] Van outfit wisselen",
+        ["change_character"] = "[E] Verander Character",
     },
     log = {
         ["house_created"] = "House Created:",
